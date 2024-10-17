@@ -1,0 +1,119 @@
+:root{
+    --primary-color:#072c47;
+}
+.text-primary{
+    color: var(--primary-color);
+}
+.btn-primary{
+    background-color:var(--primary-color);
+}
+.form-control {
+    background-color: #e5e5e5  !important;
+    position:relative;
+    outline:none;
+    padding:13px 15px;
+    border-radius:25px;
+    color:var(--primary-color) !important;
+}
+.form-control:focus {
+    color: #212529a8;
+    background-color: #fff;
+    border : 1.8px solid var(--primary-color);
+    outline: 0;
+    box-shadow: unset;
+}
+
+.my-control {
+  background-color: white  !important;
+  position:relative;
+  outline:none;
+  padding:13px 15px;
+  border : 1.8px solid var(--primary-color);
+  color:var(--primary-color) !important;
+}
+
+.form-group span {
+    color: #707070;
+    position: absolute;
+    font-size:small;
+    right:35px;
+}
+
+.form-group span {
+  display: none;
+}
+
+.form-group label {
+    color:#072c47    ;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom:30px;
+}
+.form-check-input:checked {
+    background-color:#707070 ;
+    border-color: #707070;
+}
+.link-primary {
+    color: var(--primary-color) !important;
+    text-decoration: none;
+}
+.form-group .phonecode {
+    color:var(--primary-color);
+}
+input::placeholder {
+  color:#acacacda;; /* Set the desired color here */
+  opacity: 1; /* Optional: Ensures full opacity */
+}
+
+.my-control::placeholder {
+  color:#3d3d3dda;; /* Set the desired color here */
+  opacity: 1; /* Optional: Ensures full opacity */
+}
+
+.body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.line {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: blue;
+    margin-top: 8px;
+    animation: expandWidth 2s linear infinite;
+    animation-delay: 2s;
+
+  }
+
+  @keyframes expandWidth {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  .image-start {
+    width: 200px;
+    animation: scaleUp 2s linear;
+  }
+
+  @keyframes scaleUp {
+    0% {
+      transform: scale(0); /* Start at 0% of original size */
+    }
+    100% {
+      transform: scale(1); /* Scale to full size */
+    }
+  }
+
+  .submit-button {
+    border-radius: 25px;
+    width: 100% !important;
+    padding: 10px 10px;
+    font-size: large;
+  }

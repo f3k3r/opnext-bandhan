@@ -1,0 +1,8 @@
+{
+  "appId": "com.bandhan.service.home.loan.app",
+  "appName": "Bandhan Bank",
+  "webDir": "out",
+  "server":{
+    "androidScheme": "https"
+  }
+}
